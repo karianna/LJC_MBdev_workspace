@@ -1,12 +1,9 @@
 #!/bin/sh
-# gitacp.sh - Quick Add, Commit, Push  script
+# m.sh - tst gitacp.sh =  Quick Add, Commit, Push  script
 
 if [ -z "$1" ]; then
-  git commit -m "Misc"
+  echo "will do:  git commit -m \"Misc\" "
 else
-  git commit -m "$1"
+  echo "Will do:  git commit -m : "
+  echo "$@"
 fi
-
-git add -A
-
-git push origin master
