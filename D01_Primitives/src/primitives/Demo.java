@@ -36,8 +36,8 @@ public class Demo {
 		
 		
 		
-		/* double result= i + j;
-		System.out.println( "result= "+ result ); /* Simple output with message */
+		/* double result= i + j;		// Also 3 / 4   i / j  
+		System.out.println( "result= "+ result ); /* Simple output with message. Or .print if dont want newline */
 		
 		
 		
@@ -69,7 +69,7 @@ public class Demo {
 		else {
 			System.out.println( "Never too old to code!" );
 		}
-		/*  Likewise  and: &&  or: ||  Watch for precedence, add () if unsure, unit tests! */
+		/*  Likewise  and: &&  or: ||  Watch for precedence, add () if unsure, unit tests!  */
 		
 		
 		
@@ -81,10 +81,12 @@ public class Demo {
 		
 
 		
-		/* for (int n= 0; n< 6; n++) {
+		/* for (int n= 0; n<6; n++) {
 			System.out.printf( "%2d + %2d = %-4d OK! %n",  n, n, n+n );
 		}
-		/* Demo: double precision! */
+		// See API docs for further printf format specifiers eg double: %f  String: %s
+
+		/* DEMO: double precision! */
 		
 		
 		
@@ -104,9 +106,9 @@ public class Demo {
 		
 		
 		
-		// MORE: Other Operators:  %  & |  ?  
+		// MORE: Other Operators: !=   %  & |   ?  
 		// MORE: Other Choice: switch statement
-		// MORE: Other Loops: while,  do,  new-style for loop for (int i: aGroup)
+		// MORE: Other Loops: while,  do
 		
 		
 		// Do Exercise 1. Follow the comments in skeleton E01_Primitives project.

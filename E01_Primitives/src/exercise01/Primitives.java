@@ -22,7 +22,8 @@ public class Primitives {
 		
 		// Part 3. Loop. Print a multiplication table for your chosen range of numbers eg 0 to 12
 		
-		// Part 4. If time try out:  other operators, loops, switch statement, new style for loop
+		// Part 4. If time try out:  other operators, loops, switch statement
+		
 	}
 
 }

@@ -4,7 +4,7 @@
  * Mike Burton  mikeb [at] mycosystems.co.uk
  * 
  */
-package doubleprecisoin;
+package doubleprecision;
 
 public class DoubleImprecision {
 
