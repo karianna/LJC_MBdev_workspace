@@ -17,7 +17,7 @@ public class Demo {
 		System.out.println( h );
 		
 		
-		/* Door front= new Door( "Front", 82, true );
+		Door front= new Door( "Front", 82, true );
 		System.out.println( front );
 		h.addDoor( front );
 		h.addDoor( new Door("Back", 72, false) );
