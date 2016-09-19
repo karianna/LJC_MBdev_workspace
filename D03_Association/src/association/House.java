@@ -1,7 +1,5 @@
 package association;
 
-import java.util.Arrays;
-
 public class House {
 
 	private String name;

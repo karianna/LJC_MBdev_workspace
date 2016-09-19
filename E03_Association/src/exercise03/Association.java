@@ -20,7 +20,7 @@ public class Association {
 		// 2. People can own Cats (or is it the other way round?!) so add to the Person class:
 		//	  a field for their Cat (if any) and an .addCat(aCat) method.
 		//    Test by adding code like:
-		//	me.addCat( c );
+		//  me.addCat( c );
 		//	syso( me ); 	// Should also display my Cat
 
 		// 3. Cat food is not cheap, and should be accounted for, so add to the Person class:

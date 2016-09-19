@@ -1,24 +1,27 @@
-package exercise03;
+package exercise04;
+
+import java.util.Arrays;
 
 public class Person {
+
+	/// 3. Rename various "Cat" fields and methods to ...Pet.., change various variables from Cat to Animal
 
 	private final String name;
 	int age;
 	double height;
-	private Cat[] myCats;
-	private int numCats;
+	private Animal[] myPets;	
+	private int numPets;
 	private int bal;
-	
+
 	public Person(String name, int age, double height) {
 		this.name= name;
 		this.age= age;
 		this.height= height;
-		myCats= new Cat[3];		// Plenty for any sane person!!
+		myPets= new Animal[3];		// Plenty for any sane person!!
 	}
-	
+
 	public Person() {
-		name= "Somebody";
-		//MORE: Research better alternative:  this("Somebody", 0, 0);
+		this( "Somebody", 0, 0 );
 	}
 
 	public Person(Person p) {
@@ -48,22 +51,24 @@ public class Person {
 		height+= portionSize / 3.0;
 	}
 
-	public void addCat(Cat c) {
-		myCats[numCats++]= c;
+	public void addPet(Animal c) { 
+		myPets[numPets++]= c;
 	}
 
-	public void buyCatFood(int amt) {
+		public void buyPetFood(int amt) {
 		bal-= amt/5;
 	}
 
-	public Cat getCat(int i) {
-		return myCats[i];
+	public Animal getPet(int i) { 
+		return myPets[i];
 	}
 
-	
+
+	@Override
 	public String toString() {
-		return "Person [name=" + name + ", age=" + age + ", height=" + height + ", bankBalance="+ bal+ ", myCat="+ myCats[0]+ "]";
-		// TODO display other Cats too!
+		/// 3. and display Person's Pets:
+		return "Person [name=" + name + ", age=" + age + ", height=" + height + ", myPets=" + Arrays.toString(myPets)
+		+ ", numPets=" + numPets + ", bal=" + bal + "]";
 	}
 	
 	public boolean equals(Object obj) {

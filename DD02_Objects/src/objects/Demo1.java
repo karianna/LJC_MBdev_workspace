@@ -26,82 +26,29 @@ public class Demo1 {
 		/* Remember to click in console window when running with Eclipse */
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/* // 2. String is a special Object, we don't need to say  new
+		// 2. String is a special Object, we don't need to say  new
 		String s1= "Hello";
 		String s2= "Hello";
 		if (s1 == s2) 
 			System.out.printf("%s == %s %n", s1, s2);
 		/*  */
-
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/* // 3. Equality trap!!
+		// 3. Equality trap!!
 		String s3= s1.toUpperCase();	// Has various methods
 		String s4= s2.toUpperCase();
 		if (s3 == s4)
 			System.out.printf("%s == %s %n", s3, s4);
 		else
 			System.out.printf("%s IS NOT == %s %n", s3, s4); /* What gets printed ? */
-
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/* // 4. Remember to call .equals() on objects!!
+		// 4. Remember to call .equals() on objects!!
 		System.out.printf("%s .equals %s is:  %b %n", s1, s2,  s1.equals(s2) );	
 		System.out.printf("%s .equals %s is:  %b %n", s3, s4,  s3.equals(s4) ); /* Better! */
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/* // 5. More Scanner methods, to input Strings
+		// 5. More Scanner methods, to input Strings
 		System.out.println( "Who are you?" );
 		s1= aScanner.next();
 		System.out.println( "Where do you live?" );

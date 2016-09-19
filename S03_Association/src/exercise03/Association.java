@@ -7,7 +7,7 @@
 package exercise03;
 
 /**
- *  Exercise 3. Association
+ *  Solution to Exercise 3. Association
  */
 public class Association {
 

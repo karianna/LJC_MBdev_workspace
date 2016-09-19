@@ -17,6 +17,7 @@ public class Demo {
 		System.out.println( h );
 		
 		
+		// 1. House has a Door (or more)
 		Door front= new Door( "Front", 82, true );
 		System.out.println( front );
 		h.addDoor( front );

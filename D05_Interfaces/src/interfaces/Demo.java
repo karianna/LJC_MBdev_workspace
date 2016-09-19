@@ -7,7 +7,7 @@
 package interfaces;
 
 /**
- *  Section 5.  Interfaces
+ *  Section 5.  Interfaces (if time) ...
  */
 public class Demo {
 
