@@ -7,8 +7,6 @@
 *.zip
 
 # Eclipse project files
-.classpath
-.project
 *.index
 *.lock
 *.lck
@@ -16,6 +14,7 @@ Servers/*
 .metadata/*
 .settings/*
 .recommenders/*
+RemoteSystemsTempFiles/*
 
 # Old sample files
 *.ldb

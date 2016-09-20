@@ -20,12 +20,47 @@ public class Demo {
 		System.out.println( i );	// Simple output (note comment WHY not what)
 
 
-		// 2. another primitive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/* // 2. another primitive
 		double result= i + j;		// Also 3 / 4   i / j  
 		System.out.println( "result= "+ result ); /* Simple output with message. Or .print if we dont want newline after */
 
 
-		// 3. Operators, the usual arithmetic plus:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/* // 3. Operators, the usual arithmetic plus:
 		i+= 16;		// Likewise -= etc
 		System.out.printf( "i is %d , j is %d %n", i, j );	// And after next 2:
 		j= i++;		// Likewise  --
@@ -39,13 +74,38 @@ public class Demo {
 		/*  Likewise  and: &&  or: ||  Watch for precedence, add () if unsure, unit tests!  */
 
 
-		// 4. Loop, also demonstrates formatting
+
+
+
+
+
+
+
+
+		/* // 4. Loop, also demonstrates formatting
 		for (int n= 0; n<4; n++) {
 			System.out.printf( "%2d + %2d = %-4d OK! %n",  n, n, n+n  );
 		}
 		// See API docs for further printf format specifiers eg double: %f  String: %s
 
 		/* DEMO: double precision! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 		// MORE: Other primitives:  float  short  long    byte  char    boolean  

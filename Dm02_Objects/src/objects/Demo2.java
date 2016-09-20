@@ -13,7 +13,7 @@ public class Demo2 {
 
 	public static void main(String[] args) {
 
-		// 6. Arrays (of primitives for now)
+		/* // 6. Arrays (of primitives for now)
 		int[] ai= null;				// ai is a reference variable
 		ai= new int[5];	  			// Another special Object  '5' can be a vbl
 		System.out.println( ai );	// What prints?
@@ -23,8 +23,22 @@ public class Demo2 {
 			ai[i]= i;
 		}
 		
+
 		
-		// 7. Alternative way to initialise arrays
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/* // 7. Alternative way to initialise arrays
 		int[] ages= {21,23,25,19};
 		for (int x: ages) {			// New style  for  loop
 			System.out.println( x );
