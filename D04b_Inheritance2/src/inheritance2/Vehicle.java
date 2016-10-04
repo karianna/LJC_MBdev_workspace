@@ -1,6 +1,7 @@
-package inheritance;
+package inheritance2;
 
-public class Vehicle {
+//public class Vehicle {
+	public abstract class Vehicle { /// 2. was^
 
 	private final String make;
 	private final String model;
@@ -18,6 +19,7 @@ public class Vehicle {
 		System.out.print( "I'm a shiny "+ make+ " "+ model);
 	}
 
-	public void alertWalkers() {}
+//	public void alertWalkers() {}
+	public abstract void alertWalkers(); /// 2. was^
 
 }

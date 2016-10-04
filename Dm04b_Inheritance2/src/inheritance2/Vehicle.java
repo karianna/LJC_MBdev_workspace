@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance2;
 
 public class Vehicle {
 
@@ -8,7 +8,7 @@ public class Vehicle {
 	public Vehicle() {
 		this( "SomeMake", "SomeModel");
 	}
-	
+
 	public Vehicle(String make, String model) {
 		this.make = make;
 		this.model = model;
@@ -17,5 +17,7 @@ public class Vehicle {
 	public void showModel() {
 		System.out.print( "I'm a shiny "+ make+ " "+ model);
 	}
+
+	public void alertWalkers() {}
 
 }

@@ -1,21 +1,21 @@
-package exercise04;
+package exercise04b;
 
 public class Cat extends Animal {
 
 	private String name;
-	
+
 	public Cat(String name, int weight) {
-		super(weight);	/// 1. 
+		super(weight);
 		this.name = name;
 	}
 	
 	@Override
 	public String toString() {
-		return "Cat [name=" + name + ", weight=" + getWeight() + "]"; /// 1. use getter instead of weight field
+		return "Cat [name=" + name + ", weight=" + getWeight() + "]";
 	}
 
 	@Override
-	public void sayHi() {	/// 2.
+	public void sayHi() {
 		System.out.println( "Miaw!" );
 	}
 	

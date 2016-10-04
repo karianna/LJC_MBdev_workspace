@@ -35,7 +35,7 @@ public class Demo {
 
 
 
-		// 2. Car can do extra things that Vehicle cant do, like addFuel
+		/* // 2. Car can do extra things that Vehicle cant do, like addFuel
 		c.addFuel( 25 ); 	// Cant do v.addFuel(..)
 
 
@@ -57,7 +57,7 @@ public class Demo {
 
 
 
-		// 3. Car method can call Vehicle method, to save duplication:
+		/* // 3. Car method can call Vehicle method, to save duplication:
 		c.showDetails();	/* Add this method, have it call showModel (or super.) */ 
 
 
@@ -80,7 +80,7 @@ public class Demo {
 
 
 
-		// 4. Better to initialise its fields  make, model, fuel -
+		/* // 4. Better to initialise its fields  make, model, fuel -
 		// 	  Pass them to Car ctor and have it "chain" to parent. Maybe also add a no-args Car ctor for defaults?)
 		Car c2= new Car( "Ford", "Focus", 5 );	// Note Car ctor super() call must be first stmt
 		c2.showDetails(); /* */

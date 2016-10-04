@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance2;
 
 public class Car extends Vehicle {
 
@@ -16,5 +16,5 @@ public class Car extends Vehicle {
 	public void alertWalkers() {
 		System.out.println( "Toot toot" );
 	}
-
+	
 }

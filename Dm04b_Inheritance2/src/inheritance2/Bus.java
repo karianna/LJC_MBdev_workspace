@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance2;
 
 public class Bus extends Vehicle {
 
