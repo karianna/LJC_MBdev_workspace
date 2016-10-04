@@ -4,6 +4,10 @@ public class Bus extends Vehicle {
 
 	private int takings;
 
+	public Bus(String make, String model) {
+		super( make, model );
+	}
+
 	public void payFare( int f ) {
 		takings+= f;
 	}

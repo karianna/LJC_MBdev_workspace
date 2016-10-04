@@ -35,6 +35,15 @@ public class Inheritance {
 		
 		//	  Test that Cat and Dog inherit the eat() functionality by coding like:
 		//	Cat c= new Cat( "Sid", 6 ); syso; c.eat( 6 ); syso; And likewise for a Dog
+		Cat c= new Cat( "Sid", 6 ); 
+		System.out.println( c );
+		c.eat( 6 );
+		System.out.println( c );
+		
+		Dog d= new Dog( "Fido", 16 ); 
+		System.out.println( d );
+		d.eat( 6 );
+		System.out.println( d );
 		
 	}
 
