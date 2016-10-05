@@ -29,10 +29,15 @@ public class Interfaces {
 		// Also add to the  Person  class a  favouritesValuation()  method which will loop through their favourites and calculate their total cost
 		// In your main() method create a Person and add a few favourites to them, then call their  favouritesValuation()  method  
 		// Note we avoided the obvious and insecure idea of providing a  getFavourites()  method to the  Person  class
+		
 
+		Person p = new Person( "Mike", 21, 5.6 );
+		p.addFavourites( new  Cat("Charlie", 14) );
+		p.addFavourites( new Car("BMW", "M3") );	// I wish!
+		System.out.println( "Cost of person's favourites: "+ p.favouritesValuation());
 		
 		// Attempt to add a protected species such as Lion to the person's favourites
-
+//		p.addFavourites( new Lion(222) ); 	// Cant, wrong type!
 	}
 
 }

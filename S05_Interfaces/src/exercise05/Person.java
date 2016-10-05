@@ -1,19 +1,23 @@
-package exercise04;
+package exercise05;
+
+import java.util.Arrays;
 
 public class Person {
 
 	private final String name;
 	int age;
 	double height;
-	private Cat[] myCats;
-	private int numCats;
+	private Animal[] myPets;
+	private int numPets;
 	private int bal;
+	private Buyable[] favourites= new Buyable[9];
+	private int numBuyables;
 	
 	public Person(String name, int age, double height) {
 		this.name= name;
 		this.age= age;
 		this.height= height;
-		myCats= new Cat[3];		// Plenty for any sane person!!
+		myPets= new Animal[3];		// Plenty for any sane person!!
 	}
 	
 	public Person() {
@@ -27,6 +31,18 @@ public class Person {
 		height= p.height;
 	}
 
+	void addFavourites(Buyable b) {
+		favourites[numBuyables++]= b;
+	}
+	
+	public int favouritesValuation() {
+		int tot= 0;
+		for (int i=0; i<numBuyables; i++) {
+			tot+= favourites[i].getPrice();
+		}
+		return tot;
+	}
+	
 	public int getAge() {
 		return age;
 	}
@@ -48,24 +64,24 @@ public class Person {
 		height+= portionSize / 3.0;
 	}
 
-	public void addCat(Cat c) {
-		myCats[numCats++]= c;
+	public void addPet(Animal c) {
+		myPets[numPets++]= c;
 	}
 
-	public void buyCatFood(int amt) {
+	public void buyPetFood(int amt) {
 		bal-= amt/5;
 	}
 
-	public Cat getCat(int i) {
-		return myCats[i];
+	public Animal getPet(int i) {
+		return myPets[i];
 	}
 
-	
+		@Override
 	public String toString() {
-		return "Person [name=" + name + ", age=" + age + ", height=" + height + ", bankBalance="+ bal+ ", myCat="+ myCats[0]+ "]";
-		// TODO display other Cats too!
+		return "Person [name=" + name + ", age=" + age + ", height=" + height + ", myPets=" + Arrays.toString(myPets)
+				+ ", numPets=" + numPets + ", bal=" + bal + "]";
 	}
-	
+
 	public boolean equals(Object obj) {
 		// Eclipse generated. 
 		// MORE: Research Objects.equals() and .deepEquals()
