@@ -20,41 +20,10 @@ public class Demo {
 		h.sleepIn();
 		b.sleepIn();	/* */
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		/* // 2. We need a common way to refer to different "kinds of" Dwelling  (Object is too vague, has no suitable methods)
 		Object x= h;
 		x.sleepIn();	/* Need to cast x to House, too specific */
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		// 3. So, Make "dwelling" classes  implement  Dwelling interface, which has (abstract!)  .sleepIn()
@@ -64,21 +33,7 @@ public class Demo {
 		d= h;
 		d.sleepIn(); 	/* Polymorphism */
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		// 4. Collection of interface types
 		System.out.println( "Part 4....");
 		Dwelling[] myPads= {h, b, new House()};
