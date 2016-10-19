@@ -20,20 +20,65 @@ public class Demo {
 		h.sleepIn();
 		b.sleepIn();	/* */
 		
-	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		/* // 2. We need a common way to refer to different "kinds of" Habitable place  (Object is too vague, has no suitable methods)
 		Object x= h;
 		x.sleepIn();	/* Need to cast x to House, too specific */
 		
 		
-		// 3. So, Make "habitable " classes  implement the  Habitable  interface, which has (abstract!)  .sleepIn()
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		// 3. So, Make "habitable" classes  implement the  Habitable  interface, which has (abstract!)  .sleepIn()
 		System.out.println( "Part 3..." );
 		Habitable d= b;	// Substitutability
 		d.sleepIn();
 		d= h;
 		d.sleepIn(); 	/* Polymorphism */
 
-
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		// 4. Collection of interface types
 		System.out.println( "Part 4....");
 		Habitable[] myPads= {h, b, new House()};

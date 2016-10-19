@@ -18,7 +18,7 @@ public class Car extends Vehicle {
 
 	public void showDetails() { /// 3.
 		System.out.println( "My Fuel Level is "+ fuelLevel+ " and...");
-		showModel(); 	// Call to "parent"  super.showModel() etc to disambiguate
+		showMakeAndModel(); 	// Call to "parent"  super.showModel() etc to disambiguate
 		System.out.println();
 	}
 

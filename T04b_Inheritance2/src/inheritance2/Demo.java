@@ -16,10 +16,24 @@ public class Demo {
 		// 1. Substitutability, base ref Variable can refer to sub-class object (but not vice versa)
 		Car aCar= new Car( "Datsun", "Cherry" );	
 		Vehicle aVehicle= aCar;		// But cant do:  c2= v;
-		aVehicle.alertWalkers();
+		aVehicle.alertWalkers();	// Car does "same thing" differently
 		aVehicle= new Bus( "Dennis", "Routemaster" );
 		aVehicle.alertWalkers();	/* Same call, different action, Polymorphism! */
 
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		/* // 2. How does a `Vehicle` alert walkers
 		Vehicle vehicle2= new Vehicle( "Some", "Vehicle" );
@@ -28,8 +42,23 @@ public class Demo {
 		System.out.println( "Did you hear that??" );
 		/*  - Need to know what "kind" of Vehicle, ie no such thing as a Vehicle ("Give me a Vehicle") (or Fruit or Sweet) => Abstract*/
 
-	
-		// 3. So make  Vehicle  & its  alertWalkers()  abstract, 
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/* // 3. So make  Vehicle  & its  alertWalkers()  abstract, 
 		//	  so cant do new Vehicle as above, need to create specific kinds.
 		//    And note error now in Bike, "effectively abstract"
 		System.out.println( "Part 3......" );
@@ -39,11 +68,23 @@ public class Demo {
 		vehicle3.alertWalkers();	/* */
 
 
-		// 4. Array of base (even abstract) references:
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/* // 4. Array of base (even abstract) references:
 		System.out.println( "Part 4...." );
 		Vehicle traffic[]= {vehicle3, aCar, aVehicle};
 		for (Vehicle theVehicle: traffic) {
-			theVehicle.showModel();		// And add  .showModel() calling super. to Bike, Bus, Car  then print (not println) " Car. " etc
+			theVehicle.showMakeAndModel();		// And add  .showMakeAndModel() calling super. to Bike, Bus, Car  then print (not println) " Car. " etc
 			theVehicle.alertWalkers();
 		} /* **Mention protected */
 
