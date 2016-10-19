@@ -18,8 +18,8 @@ public class Bike extends Vehicle implements Buyable {
 	}
 
 	@Override
-	public void showModel() {	/// 4.
-		super.showModel();
+	public void showMakeAndModel() {	/// 4.
+		super.showMakeAndModel();
 		System.out.print( " Bike. " );
 	}
 

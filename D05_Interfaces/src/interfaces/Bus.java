@@ -1,4 +1,4 @@
-package exercise05;
+package interfaces;
 
 public class Bus extends Vehicle {
 

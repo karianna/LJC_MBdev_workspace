@@ -15,7 +15,7 @@ public abstract class Vehicle { /// 2. was^
 		this.model = model;
 	}
 
-	public void showModel() {
+	public void showMakeAndModel() {
 		System.out.print( "I'm a shiny "+ make+ " "+ model);
 	}
 
