@@ -10,9 +10,9 @@ public class Bike extends Vehicle {
 	public void alertWalkers() { /// 2.
 		System.out.println( "Ding ding!" );
 	}
-	
+
 	public void carry( int metres ) {
-//		rider.exert (metres / 3)	// How many pounds does rider lose?!
+		//		rider.exert (metres / 3)	// How many pounds does rider lose?!
 	}
 
 	@Override

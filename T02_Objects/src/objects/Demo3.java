@@ -39,42 +39,42 @@ public class Demo3 {
 		h.setNumRooms(6);			/* Setter might validate eg disallow -ve */
 
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		/* // 10. Initialise can be better than setter
 		House h2= new House( "Ivy Tower", 400);	
 		System.out.println( h2 );
 		/* ^ this.name= name,  final,  NOTE overrides no-args ctor! */
 
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		/* // 11. Copying a reference
 		House h3= h2;		// Did we copy a House?
 		h3.setNumRooms(2);
@@ -87,15 +87,15 @@ public class Demo3 {
 		} /* */
 
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
 		/* // 12. Copy an object, check for equality and equivalence, as we did with Strings
 		h3= new House( h2 );	// Write a Copy Ctor
 		System.out.println( "h2 = "+ h2 );
@@ -105,19 +105,19 @@ public class Demo3 {
 		/* Then uncomment House.equals() */		
 
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
 		/* // 13. Array of objects
 		House[] street= new House[3];	 	// Array of Objects, how many House objects got created?
 		System.out.println( street );		/* What prints? */

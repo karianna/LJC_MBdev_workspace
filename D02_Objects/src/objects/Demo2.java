@@ -22,15 +22,15 @@ public class Demo2 {
 		for (int i= 0; i< ai.length; i++) {
 			ai[i]= i;
 		}
-		
-		
+
+
 		// 7. Alternative way to initialise arrays
 		int[] ages= {21,23,25,19};
 		for (int x: ages) {			// New style  for  loop
 			System.out.println( x );
 		} /* */
-		
-		
+
+
 		// See Demo3
 
 	}

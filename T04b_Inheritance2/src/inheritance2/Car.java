@@ -7,7 +7,7 @@ public class Car extends Vehicle {
 	public Car(String make, String model) {
 		super( make, model );
 	}
-	
+
 	public void addFuel( int litres ) {
 		fuelLevel+= litres;
 	}
@@ -16,5 +16,5 @@ public class Car extends Vehicle {
 	public void alertWalkers() {
 		System.out.println( "Toot toot" );
 	}
-	
+
 }

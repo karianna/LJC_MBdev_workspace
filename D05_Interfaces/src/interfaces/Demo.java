@@ -12,20 +12,20 @@ package interfaces;
 public class Demo {
 
 	public static void main(String[] args) {
-		
+
 		// 1. Both my dwellings (Habitable places) can have  sleepIn()  methods:
 		// See Building: House, Factory  and Vehicle: Boat, Bike
 		House h = new House();
 		Boat b = new Boat();
 		h.sleepIn();
 		b.sleepIn();	/* */
-		
-	
+
+
 		/* // 2. We need a common way to refer to different "kinds of" Habitable place  (Object is too vague, has no suitable methods)
 		Object x= h;
 		x.sleepIn();	/* Need to cast x to House, too specific */
-		
-		
+
+
 		// 3. So, Make "habitable " classes  implement the  Habitable  interface, which has (abstract!)  .sleepIn()
 		System.out.println( "Part 3..." );
 		Habitable d= b;	// Substitutability
@@ -40,7 +40,7 @@ public class Demo {
 		for( Habitable d0: myPads ) {
 			d0.sleepIn();
 		} /* */
-		
+
 	}
 
 }

@@ -16,5 +16,5 @@ public class Bus extends Vehicle {
 	public void alertWalkers() {
 		System.out.println( "Honk Honk!" );
 	}
-	
+
 }

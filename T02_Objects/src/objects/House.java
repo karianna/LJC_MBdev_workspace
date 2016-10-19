@@ -11,14 +11,14 @@ package objects;
  */
 public class House {
 
-		public int numRooms= 4; 	// Data (state) should be private
+	public int numRooms= 4; 	// Data (state) should be private
 
 	public String getDetails() {
 		return "House details: numRooms= "+ numRooms;
 	}
 
 	public String toString() {
-				return "House details: numRooms= "+ numRooms;
+		return "House details: numRooms= "+ numRooms;
 	}
 
 	/* public boolean equals(Object obj) {	/// 12.

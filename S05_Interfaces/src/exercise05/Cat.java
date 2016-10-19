@@ -9,7 +9,7 @@ public class Cat extends Animal implements Buyable {
 		super(weight);
 		this.name = name;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Cat [name=" + name + ", weight=" + getWeight() + "]";
@@ -28,5 +28,5 @@ public class Cat extends Animal implements Buyable {
 	@Override
 	public void buy() {
 	}
-	
+
 }

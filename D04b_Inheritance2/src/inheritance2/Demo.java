@@ -20,7 +20,7 @@ public class Demo {
 		aVehicle= new Bus( "Dennis", "Routemaster" );
 		aVehicle.alertWalkers();	/* Same call, different action, Polymorphism! */
 
-		
+
 		/* // 2. How does a `Vehicle` alert walkers
 		Vehicle vehicle2= new Vehicle( "Some", "Vehicle" );
 		System.out.println( "Vehicle about to alert walkers:" );
@@ -28,7 +28,7 @@ public class Demo {
 		System.out.println( "Did you hear that??" );
 		/*  - Need to know what "kind" of Vehicle, ie no such thing as a Vehicle ("Give me a Vehicle") (or Fruit or Sweet) => Abstract*/
 
-	
+
 		// 3. So make  Vehicle  & its  alertWalkers()  abstract, 
 		//	  so cant do new Vehicle as above, need to create specific kinds.
 		//    And note error now in Bike, "effectively abstract"

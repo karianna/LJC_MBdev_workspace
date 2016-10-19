@@ -19,5 +19,5 @@ public class Cat {
 		return "Cat [name=" + name + ", weight=" + weight + "]";
 
 	}
-	
+
 }

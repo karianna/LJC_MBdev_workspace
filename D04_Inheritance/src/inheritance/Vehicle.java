@@ -8,7 +8,7 @@ public class Vehicle {
 	public Vehicle() {
 		this( "SomeMake", "SomeModel");
 	}
-	
+
 	public Vehicle(String make, String model) {
 		this.make = make;
 		this.model = model;

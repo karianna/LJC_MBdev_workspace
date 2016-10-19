@@ -16,7 +16,7 @@ public class Bus extends Vehicle {
 	public void alertWalkers() {
 		System.out.println( "Honk Honk!" );
 	}
-	
+
 	@Override
 	public void showModel() {	/// 4.
 		super.showModel();
